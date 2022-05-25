@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(81, 123, 238);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.botao {
+    border-radius: 10px;
+    background-color: blue;
+    color: aliceblue;
+    margin-top: 200px;
+    cursor: pointer;
+}
+
+.botao:active{
+    transform: scale(0.5);
+}
+
+
+
+
+
+
+@media (max-width: 480px){
+
+}
