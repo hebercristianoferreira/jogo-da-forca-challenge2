@@ -1,26 +1,30 @@
-*{
-    background-color: rgb(81, 123, 238);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 60px;
+body {
+    background-color: rgb(146, 159, 196);
+    font-size: 30px;
     text-align: center;
-
+    font-family: 'Indie Flower', cursive;
+    margin-top: 100px;
 }
 
 .botao {
     border-radius: 10px;
-    background-color: blue;
+    background-color: rgb(3, 3, 20);
     color: aliceblue;
-    margin-top: 200px;
+    margin-top: 150px;
     cursor: pointer;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
 }
 
 .botao:active{
-    transform: scale(0.5);
+    transform: scale(0.8);
 }
 
+.footer {
+    font-size: 20px;
+    margin-top: 150px;
 
-
-
+}
 
 
 @media (max-width: 480px){

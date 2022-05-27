@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 const tecnologias = [
     "java","react","node", "python","php"
 ];
