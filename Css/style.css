@@ -2,18 +2,18 @@ body {
     background-color: rgb(146, 159, 196);
     font-size: 30px;
     text-align: center;
-    font-family: 'Indie Flower', cursive;
-    margin-top: 100px;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 80px;
 }
 
 .botao {
     border-radius: 10px;
     background-color: rgb(3, 3, 20);
     color: aliceblue;
-    margin-top: 150px;
+    margin-top: 100px;
     cursor: pointer;
     font-size: 30px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .botao:active{
@@ -22,12 +22,12 @@ body {
 
 .footer {
     font-size: 20px;
-    margin-top: 150px;
+    margin-top: 100px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
 
-@media (max-width: 480px){
+@media (max-width: 450px){
     
 }
