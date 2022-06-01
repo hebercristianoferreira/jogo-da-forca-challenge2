@@ -16,6 +16,21 @@ body {
     font-family: 'IBM Plex Mono', monospace;
 }
 
+.botao1 {
+    border-radius: 10px;
+    background-color: rgb(3, 3, 20);
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+    text-decoration: black;
+}
+
+
+
 .botao:active{
     transform: scale(0.8);
 }
@@ -26,6 +41,7 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+
 
 
 @media (max-width: 450px){
