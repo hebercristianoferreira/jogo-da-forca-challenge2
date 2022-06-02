@@ -6,13 +6,15 @@ body {
     margin-top: 80px;
 }
 
-.titulo{
-   font-size: 40px;
+h2{
+    margin-top: 200px;
+}
 
+.texto{
+    margin-top: 50px;
 }
 
 .botao{
-    
     margin-top: 60px;
     border-radius: 10px;
     background-color: rgb(3, 3, 20);
@@ -20,30 +22,4 @@ body {
     cursor: pointer;
     font-size: 20px;
     font-family: 'IBM Plex Mono', monospace;
-    
 }
-
-
-a {
-    text-decoration: black;
-}
-
-
-
-.botao:active{
-    transform: scale(0.8);
-}
-
-.footer {
-    font-size: 20px;
-    margin-top: 100px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-
-@media (max-width: 450px){
-    
-}
-
-
-  
