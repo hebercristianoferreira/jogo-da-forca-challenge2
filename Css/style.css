@@ -6,24 +6,26 @@ body {
     margin-top: 80px;
 }
 
-.botao {
-    border-radius: 10px;
-    background-color: rgb(3, 3, 20);
-    color: aliceblue;
-    margin-top: 100px;
-    cursor: pointer;
-    font-size: 30px;
-    font-family: 'IBM Plex Mono', monospace;
+.titulo{
+   font-size: 40px;
+
 }
 
-.botao1 {
+.botao{
+    position: static;
+    margin-top: 60px;
     border-radius: 10px;
     background-color: rgb(3, 3, 20);
     color: aliceblue;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'IBM Plex Mono', monospace;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 40%;
+    
 }
+
 
 a {
     text-decoration: black;
@@ -42,8 +44,112 @@ a {
 
 }
 
-
-
 @media (max-width: 450px){
     
 }
+
+@keyframes colors {
+    0% {
+      background-position: 0% 50% ;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+  .box-1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .flex-container-2-2 {
+    display: flex;
+    justify-content: center;
+    
+ 
+   
+  }
+  
+  .box-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 40px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  span {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #080000;
+    width: 40px;
+    margin: 5px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  button{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 35px;
+    padding: 10px 0;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(12, 1, 1);
+    cursor: pointer;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #06739b46, #ffffff);
+    box-shadow: 0px 5px 30px -5px rgba(0, 0, 0, 0.938);
+    text-shadow: black;
+  
+  }
+
+  #novo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  button:hover {
+    background-color: #28ec0e;
+  }
+  
+  button.novo-bt {
+    width: auto;
+    padding: 10px;
+  }
+  
+  .certa, .certa:hover {
+    background: #03850d;
+    border: 1px solid #038118;
+    cursor: inherit;
+  }
+  
+  .errada, .errada:hover {
+    background: #f70410;
+    border: 1px solid #f50612;
+    cursor: inherit;
+  }
+  
