@@ -105,13 +105,22 @@ body {
     border: 1px solid #038118;
     cursor: inherit;
   }
-  
   .errada, .errada:hover {
     background: #f70410;
     border: 1px solid #f50612;
     cursor: inherit;
   }
 
-  @media (max-width: 450px){
+  @media only screen and (max-width: 600px) {
     
-}
+    canvas {
+      display: inline-block;
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+  }
+
+  
