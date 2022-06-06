@@ -1,4 +1,4 @@
-let palavras = ["ronaldo", "lionelmessi", "robinho", "alisson", "neymar", "alura", "vampeta", "rincon", "cristianoronaldo", "juninhopernanbucano", "juninhopaulista", "jairmessiasbolsonaro", "lulaladrao", "ciroroza", "bitcoin", "binance", "oracle"];
+let palavras = ["ronaldo", "lionelmessi", "robinho", "alisson", "neymar", "alura", "vampeta", "rincon", "cristianoronaldo"];
 
 let palavra = palavras[Math.floor(Math.random() * palavras.length)];
 
