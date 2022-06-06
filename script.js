@@ -118,6 +118,3 @@ function desenhaBoneco(erros) {
       break
   }
 }
-
-
-

@@ -44,6 +44,9 @@ a {
 @media (max-width: 450px){
     
 }
+@media only screen and (max-height: 600px){
+
+}
 
 
   
